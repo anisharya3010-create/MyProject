@@ -78,6 +78,7 @@ const checkWinner = () => {
                 console.log("winner", pos2Val);
                 console.log("winner", pos3Val);
                 showWinner(pos1Val);
+                return;
 
             }
 
@@ -100,3 +101,4 @@ const draw = () => {
 newbtn.addEventListener("click", resetGame);
 
 resetbtn.addEventListener("click", resetGame);
+
