@@ -93,8 +93,10 @@ const checkWinner = () => {
 
 const draw = () => {
     msg.innerText = "It's a draw!";
-    msgContainer.classList.remove("hide");
+    msgContainer.classList.remove("hide"); 
+   disableBoxes(); 
 };
 
 newbtn.addEventListener("click", resetGame);
+
 resetbtn.addEventListener("click", resetGame);
